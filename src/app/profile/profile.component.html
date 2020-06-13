@@ -1,0 +1,129 @@
+<html>
+<head>
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <!--<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
+
+
+  </head>
+<body>
+<nav class="navbar navbar-expand-md navbar-light bg-light">
+  <a href="#" class="navbar-brand"><img class="im" [src]="symbol"></a>
+  <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link" routerLink="/">Home</a>
+      <a class="nav-item nav-link" routerLink="/shop">Shop</a>&nbsp;
+      <a class="nav-item nav-link" routerLink="/cart">Cart</a>&nbsp;
+      <a class="nav-item nav-link" routerLink="/wishlist">Wishlist</a>&nbsp;
+      <a class="nav-item nav-link" routerLink="/signup">Signup</a>&nbsp;
+      <a class="nav-item nav-link" routerLink="/login">Login</a>&nbsp;
+      <a class="nav-item nav-link" routerLink="/profile">Profile</a>&nbsp;
+    </div>
+  </div>
+  <form class="form-inline">
+    <div class="input-group">
+      <input type="text" class="form-control" placeholder="Search">
+    </div>
+  </form>
+</nav>
+
+<br><br><br>
+<div class="container" >
+  <div class="row">
+    <div class="col-12">
+      <div class="card">
+
+        <div class="card-body">
+          <div class="card-title mb-3">
+            <div class="">
+              <div class="image-container" style="text-align: center">
+                <img [src]="profile" id="imgProfile" style="width: 180px; height: 180px " class="img-thumbnail" />
+                <div class="middle">
+                  <input type="button" class="btn btn-secondary" id="btnChangePicture" value="Change" />
+                  <input type="file" style="display: none;" id="profilePicture" name="file" />
+                </div>
+              </div>
+            </div>
+            <div style="text-align: center">
+              <h2 class="d-block" style="font-size: 1.5rem; font-weight: bold"><a href="">Jamshaid</a></h2>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12">
+
+              <div class="tab-content ml-1" id="myTabContent">
+                <div class="tab-pane fade show active" id="basicInfo" role="tabpanel" aria-labelledby="basicInfo-tab">
+
+
+                  <div class="row">
+                                            <span class="col-sm-3 col-md-5 col-6">
+                                                <label style="font-weight:bold;  padding-left:30px;">Full Name</label>
+                                            </span>
+                    <span class="col-md-6 col-6" style="padding-left:38px">
+                                                Jamshaid Kamran
+                                            </span>
+                  </div>
+
+                  <hr>
+                  <br>
+                  <div class="row">
+                                            <span class="col-sm-3 col-md-5 col-5">
+                                                <label style="font-weight:bold;  padding-left:30px;">Birth date         </label>
+                                            </span>
+                    <span class="col-md-6 col-6" style="padding-left:39px">
+                                                March 22, 1994.
+                                            </span>
+                  </div>
+
+                  <hr>
+                  <br>
+                  <div class="row">
+                                            <span class="col-sm-3 col-md-5 col-5">
+                                                <label style="font-weight:bold; padding-left:30px;">Mobile Number      </label>
+                                            </span>
+                    <span class="col-md-6 col-6" style="padding-left:38px">
+                                                **********
+                                            </span>
+                  </div>
+
+                  <hr>
+                  <br>
+                  <div class="row">
+                                            <span class="col-sm-3 col-md-5 col-5">
+                                                <label style="font-weight:bold; padding-left:30px;">Email ID           </label>
+                                            </span>
+                    <span class="col-md-6 col-6" style="padding-left:40px">
+                                                User@gmail.com
+                                            </span>
+                  </div>
+
+                  <hr>
+                  <br>
+                  <div class="row">
+                                            <span class="col-sm-3 col-md-5 col-5">
+                                                <label style="font-weight:bold; padding-left:30px;">Gender              </label>
+                                            </span>
+                    <span class="col-md-6 col-6" style="padding-left:40px">
+                                                Female
+                                            </span>
+                  </div>
+
+                  <hr>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ml-auto" style="text-align: center; cursor: pointer; text-align: center; padding: 10px; margin= 20px; padding-bottom: 20px;">
+            <input type="button" class="btn btn-primary d-none" id="btnDiscard" value="Edit" />
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+</head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<nav class="navbar navbar-expand-md navbar-light bg-light">
+  <a href="#" class="navbar-brand"><img class="im" [src]="symbol"></a>
+  <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link" routerLink="/">Home</a>
+      <a class="nav-item nav-link" routerLink="/shop">Shop</a>&nbsp;
+      <a class="nav-item nav-link" routerLink="/cart">Cart</a>&nbsp;
+      <a class="nav-item nav-link" routerLink="/wishlist">Wishlist</a>&nbsp;
+      <a class="nav-item nav-link" routerLink="/signup">Signup</a>&nbsp;
+      <a class="nav-item nav-link" routerLink="/login">Login</a>&nbsp;
+      <a class="nav-item nav-link" routerLink="/profile">Profile</a>&nbsp;
+    </div>
+  </div>
+  <form class="form-inline">
+    <div class="input-group">
+      <input type="text" class="form-control" placeholder="Search">
+    </div>
+  </form>
+</nav>
+
+<div class="pk">
+  <mat-card>
+    <img class="imo" mat-card-image [src]="shirt" >
+    <div class="prem">
+      Lenin
+    </div>
+    <div class="cur">
+      {{a|currency:'INR'}}
+    </div>
+    <button mat-raised-button color="primary"><a class="nav-item nav-link" routerLink="/cart">Buy</a></button>
+  </mat-card>
+  <mat-card>
+    <img class="imo" mat-card-image [src]="shirt">
+    <div class="prem">
+      Lenin
+    </div>
+    <div class="cur">
+      {{a|currency:'INR'}}
+    </div>
+    <button mat-raised-button color="primary"><a class="nav-item nav-link" routerLink="/cart">Buy</a></button>
+  </mat-card>
+
+  <mat-card>
+    <img class="imo" mat-card-image [src]="shirt">
+    <div class="prem">
+      Lenin
+    </div>
+    <div class="cur">
+      {{a|currency:'INR'}}
+    </div>
+    <button mat-raised-button color="primary"><a class="nav-item nav-link" routerLink="/cart">Buy</a></button>
+  </mat-card>
+</div>
+
+<div class="pk">
+  <mat-card>
+    <img class="imo" mat-card-image [src]="shirt">
+    <div class="prem">
+      Lenin
+    </div>
+    <div class="cur">
+      {{a|currency:'INR'}}
+    </div>
+    <button mat-raised-button color="primary"><a class="nav-item nav-link" routerLink="/cart">Buy</a></button>
+  </mat-card>
+
+  <mat-card>
+    <img class="imo" mat-card-image [src]="shirt">
+    <div class="prem">
+      Lenin
+    </div>
+    <div class="cur">
+      {{a|currency:'INR'}}
+    </div>
+    <button mat-raised-button color="primary"><a class="nav-item nav-link" routerLink="/cart">Buy</a></button>
+  </mat-card>
+  <mat-card>
+    <img class="imo" mat-card-image [src]="shirt">
+    <div class="prem">
+      Lenin
+    </div>
+    <div class="cur">
+      {{a|currency:'INR'}}
+    </div>
+    <button mat-raised-button color="primary"><a class="nav-item nav-link" routerLink="/cart">Buy</a></button>
+  </mat-card>
+</div>
+</html>

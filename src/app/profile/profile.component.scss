@@ -1,0 +1,48 @@
+.im{
+  width:45px;
+  height:45px;
+}
+body{
+  padding-top: 0px;
+  padding-bottom: 50px;
+}
+.image-container {
+  position: relative;
+  padding-top: 50px;
+}
+#basicInfo{
+  margin-left: 0px;
+}
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.image-container:hover .image {
+  opacity: 0.3;
+}
+
+.image-container:hover .middle {
+  opacity: 1;
+}
+.container{
+  border: 1px solid black;
+  margin: auto;
+  width: 28%;
+  border-radius: 10px;
+}

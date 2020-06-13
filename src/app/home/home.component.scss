@@ -1,0 +1,135 @@
+.im{
+  width:45px;
+  height:45px;
+}
+.se{
+  background-color: whitesmoke;
+  position: relative;
+  text-align: center;
+}
+.se1{
+  text-align: center;
+  font-size: 40px;
+  font-family: "Lucida";
+  color: blueviolet;
+  padding: 20px;
+  box-shadow:0px 10px 10px 10px #e5e5e5;
+}
+.tbl{
+  text-align: center;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+.se2{
+  text-align: center;
+}
+.im1{
+  width: 250px;
+  height: 320px;
+  margin: 30px;
+}
+.btt{
+  background-color: black;
+  color: #dddddd;
+  height: 60px;
+  width: 180px;
+  font-size: 30px;
+}
+.se3{
+  text-align: center;
+  background-color: antiquewhite;
+}
+.se3>h1{
+  font-family: "Arial Rounded MT Bold";
+  font-size: 65px;
+  color: olive;
+}
+.se4>h1{
+  font-family: Georgia;
+  font-size: 69px;
+  color: #808059;
+}
+mat-grid-tile {
+  background-color: navajowhite;
+}
+.divimg{
+  width: 460px;
+  height: 240px;
+}
+.se4{
+  text-align: center;
+  padding-top: 35px;
+  background-color: bisque;
+}
+.se4\.1{
+  width:15.3%;
+  display: inline-block;
+
+  text-align: center;
+  margin: 20px;
+}
+.example-header-image {
+  background-image: url("src/assets/images/e-fashion.jpg");
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  padding: unset;
+}
+.example-header-image1 {
+  background-image: url("src/assets/images/e-denim.jpg");
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+}
+.example-header-image2 {
+  background-image: url("src/assets/images/e-dress.jpg");
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+}
+.example-header-image3 {
+  background-image: url("src/assets/images/e-t-shirt.jpg");
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+}
+.example-header-image4 {
+  background-image: url("src/assets/images/e-jacket.jpg");
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+}
+.example-header-image5 {
+  background-image: url("src/assets/images/e-pajamas.jpg");
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+}
+.example-header-image6 {
+  background-image: url("src/assets/images/e-short.jpg");
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+}
+.example-header-image7 {
+  background-image: url("src/assets/images/e-bathrobe.jpg");
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+}
+.example-header-image8 {
+  background-image: url("src/assets/images/e-raincoat.jpg");
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+}
+.example-header-image9 {
+  background-image: url("src/assets/images/e-sweater.jpg");
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+}
+.nav-item{
+  padding: unset;
+}
